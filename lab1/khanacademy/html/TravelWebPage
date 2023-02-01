@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style> 
+            h1{ color: red;}
+            #places {color: green;}
+            p{color: blue ;}
+        </style>
+        
+    </head>
+    <body>
+    
+        <h1>Travel to USA </h1>
+        
+        <h2 id="places"> New York</h2>
+        <p> York is one of the largest cities in the world. Its population is over 11 million people. New York is an industrial and cultural centre of the country. Most business is centred in Manhattan Island. The whole area is very small, that's why the sky-scrapers were invented in New York and, especially, in Wall Street. </p>
+        <img src= "https://avatars.mds.yandex.net/i?id=f0f976bf625d2547897be47c13b60d886e709389-7570978-images-thumbs&n=13">
+        
+        <h2 id="places">
+            Silicon Valley
+        </h2>
+        <p>  The government's initial research and engineering design sculpted the necessary hardware, software, and networking capabilities to make the Internet run. The Internet itself is a result in four primary governmental roles: research and development, subsidizing projects through defense contracts, implementation of standards, and training through public and private universities. These roles not only played part in creating the Internet and computer industries, but also promoted the growth and development of the Silicon Valley through the region.</p>
+    </body>
+</html>
