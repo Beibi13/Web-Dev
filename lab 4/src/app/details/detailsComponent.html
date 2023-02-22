@@ -1,0 +1,11 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+    <h3>{{ product.name }}</h3>
+    <div><img *ngFor="let pic of product.images" [src]=pic height="300px" style="margin:0 10px;"></div>
+    <div><img *ngFor="let i of [].constructor(product.rating)" src="https://pngicon.ru/file/uploads/zvezda.png" height="30px"></div>
+    <p><a [href]=product.link target="_blank">To Kaspi.kz</a></p>
+    <h4>{{ product.price | currency:'TG' }}</h4>
+    <pre>Description:<br>{{ product.description }}</pre>
+    <button type="button" (click)="addToCart(product)">Buy</button>
+</div>
